@@ -1,12 +1,13 @@
 # cyclomatic_complexity.py
 import datetime
 
-import pandas
-
 
 def print_day_and_month(day: str, month: str):
     print(day)
     print(month)
+
+
+#e = 1 # noqa: ERA001
 
 
 def date_to_string(year: int, month: int, day: int):
@@ -76,3 +77,4 @@ def date_to_string(year: int, month: int, day: int):
 if __name__ == "__main__":
     date: str = date_to_string(year=2025, month=7, day=15)
     print(date)
+    print(hello)
