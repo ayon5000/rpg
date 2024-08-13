@@ -1,6 +1,8 @@
 # cyclomatic_complexity.py
 import datetime
 
+import pandas
+
 
 def print_day_and_month(day: str, month: str):
     print(day)
