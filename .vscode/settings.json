@@ -1,0 +1,24 @@
+{
+    "editor.formatOnSave": false,
+    "editor.formatOnSaveMode": "file",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "black-formatter.args": ["--line-length=99"],
+    "editor.rulers": [
+        {
+            "color": "lightblue",
+            "column": 72
+        },
+        {
+            "color": "lightgreen",
+            "column": 99
+        }
+    ],
+    "pylint.args": [
+        "--disable=missing-function-docstring"
+    ],
+    "[python]": {
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    
+}

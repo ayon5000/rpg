@@ -1,0 +1,4 @@
+[flake8]
+extend-ignore = E303,DAR103
+
+radon-max-cc = 10
