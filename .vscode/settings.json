@@ -2,7 +2,9 @@
     "editor.formatOnSave": false,
     "editor.formatOnSaveMode": "file",
     "editor.defaultFormatter": "ms-python.black-formatter",
-    "black-formatter.args": ["--line-length=99"],
+    "black-formatter.args": [
+        "--config ${workspaceFolder}/.black.toml"
+    ],
     "editor.rulers": [
         {
             "color": "lightblue",
