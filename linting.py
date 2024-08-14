@@ -2,6 +2,7 @@
 
 """This file shows example linting errors"""
 MY_VARIABLE = 1
+e=1
 
 
 class MyClass:
@@ -46,9 +47,10 @@ class Book:
     aaf: int
 
 
-my_string = \
-    "This is a very long string that should be split " \
+my_string = (
+    "This is a very long string that should be split "
     + "into multiple lines to avoid pylint error C0301"
+)
 
 
 my_string = "Hello, World!   "
@@ -74,9 +76,9 @@ class MyClass:
 my_class = MyClass()
 
 
-
 def my_function(my_variable):
     print(my_variable)
+
 
 # pylint: disable=no-value-for-parameter
 my_function()
@@ -138,16 +140,13 @@ my_variable = 1
 
 from __future__ import print_function
 
-import os
-import sys
-
 
 def my_function():
     pass
 
 
 if True:
-    import os
+    pass
 
 
 class MyClass:
