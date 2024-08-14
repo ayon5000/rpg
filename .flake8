@@ -2,3 +2,6 @@
 extend-ignore = E303,DAR103
 
 radon-max-cc = 10
+
+exclude =
+    venv
