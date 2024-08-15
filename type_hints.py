@@ -1,3 +1,3 @@
 var: int = 1
 
-var = "Hello"
+var = 'Hello'

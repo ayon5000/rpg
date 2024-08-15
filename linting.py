@@ -1,8 +1,9 @@
 # linting.py
 
 """This file shows example linting errors"""
+
 MY_VARIABLE = 1
-e=1
+e = 1
 
 
 class MyClass:
@@ -48,24 +49,24 @@ class Book:
 
 
 my_string = (
-    "This is a very long string that should be split "
-    + "into multiple lines to avoid pylint error C0301"
+    'This is a very long string that should be split '
+    + 'into multiple lines to avoid pylint error C0301'
 )
 
 
-my_string = "Hello, World!   "
+my_string = 'Hello, World!   '
 
 
 my_variable = 1
 
 
 def my_function():
-    print("Hello, World!")
+    print('Hello, World!')
 
 
 if True:
-    print("Hello, World!")
-    print("Hello, World!")
+    print('Hello, World!')
+    print('Hello, World!')
 
 
 class MyClass:
@@ -110,12 +111,12 @@ print(my_variable[0])
 
 
 my_variable = 1
-my_string = "Hello, World!"
+my_string = 'Hello, World!'
 print(my_variable + my_string)
 
 
-my_string = "Hello, World!"
-print(f"{my_string} {1}")
+my_string = 'Hello, World!'
+print(f'{my_string} {1}')
 
 
 my_variable = 1
@@ -132,7 +133,7 @@ def my_function():
     pass
 
 
-my_string = "Hello, World!   "
+my_string = 'Hello, World!   '
 
 
 my_variable = 1
@@ -188,12 +189,12 @@ print(my_variable[0])
 
 
 my_variable = 1
-my_string = "Hello, World!"
+my_string = 'Hello, World!'
 print(my_variable + my_string)
 
 
-my_string = "Hello, World!"
-print(f"{my_string} {1}")
+my_string = 'Hello, World!'
+print(f'{my_string} {1}')
 
 
 my_variable = 1

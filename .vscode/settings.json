@@ -1,7 +1,7 @@
 {
     "editor.formatOnSave": false,
     "editor.formatOnSaveMode": "file",
-    "editor.defaultFormatter": "ms-python.black-formatter",
+    
     "black-formatter.args": [
         "--config ${workspaceFolder}/.black.toml"
     ],
@@ -22,5 +22,8 @@
     "editor.codeActionsOnSave": {
         "source.organizeImports": "explicit"
     },
-    
+    "[yaml]": {
+    "editor.autoIndent": "advanced"
+    },
+
 }

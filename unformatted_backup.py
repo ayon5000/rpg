@@ -6,47 +6,25 @@ def say_message(message: str) -> None:
     print(message)
 
 
-parallel_equals_signs________ = "thing"
-parallel_equals_signs = "thing"
-parallel_equals_signs__ = "thing"
+parallel_equals_signs________ = 'thing'
+parallel_equals_signs = 'thing'
+parallel_equals_signs__ = 'thing'
 
 parallel_keys = {
-    "parallel_key___________": 1,
-    "parallel_key___": 2,
-    "parallel_key": 3,
+    'parallel_key___________': 1,
+    'parallel_key___': 2,
+    'parallel_key': 3,
 }
 
 # long lines of code
-value = "hi"
-value.strip("a").strip("b").strip("c").strip("d").strip("e").strip("f").strip(
-    "g"
-).strip("h").strip("h").strip("h").strip("h").strip("h").strip("h").strip("h").strip(
-    "h"
-).strip(
-    "h"
-).strip(
-    "h"
-).strip(
-    "h"
-).strip(
-    "h"
-).strip(
-    "h"
-).strip(
-    "h"
-).strip(
-    "h"
-).strip(
-    "h"
-).strip(
-    "h"
-).strip(
-    "h"
-).strip(
-    "h"
-).strip(
-    "h"
-)
+value = 'hi'
+value.strip('a').strip('b').strip('c').strip('d').strip('e').strip('f').strip(
+    'g'
+).strip('h').strip('h').strip('h').strip('h').strip('h').strip('h').strip('h').strip(
+    'h'
+).strip('h').strip('h').strip('h').strip('h').strip('h').strip('h').strip('h').strip(
+    'h'
+).strip('h').strip('h').strip('h').strip('h')
 
 
 # functions get reduced (trailing comma, fewer merge conflicts!)
