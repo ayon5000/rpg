@@ -1,7 +1,7 @@
 {
     "editor.formatOnSave": false,
     "editor.formatOnSaveMode": "file",
-    
+
     "black-formatter.args": [
         "--config ${workspaceFolder}/.black.toml"
     ],

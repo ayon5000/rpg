@@ -1,4 +1,3 @@
-"""Modue doc string
-"""
+"""Modue doc string."""
 
 print('Hello')
